@@ -699,7 +699,7 @@ do
     local WalkSpeedSliderUI = Tabs.Player:AddSlider("WalkSpeedSliderUI", {
         Title = "Walk Speed",
         Min = 16,
-        Max = 200,
+        Max = 200000,
         Default = 16,
         Rounding = 1,
     })
