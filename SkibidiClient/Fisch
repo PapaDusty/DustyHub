@@ -887,16 +887,6 @@ do
 
 
     -- // Character Tab // --
-    local DisableTemp = Tabs.Player:AddToggle("DisableTemp", {Title = "Disable Temperature", Default = false})
-    DisableTemp:OnChanged(function()
-        LocalPlayer.Character.client.temperature.Disabled = Options.DisableTemp.Value
-    end)
- 
-
-    local DisableOxygen = Tabs.Player:AddToggle("DisableOxygen", {Title = "Disable Oxygen", Default = false })
-    DisableOxygen:OnChanged(function()
-        LocalPlayer.Character.client.oxygen.Disabled = Options.DisableOxygen.Value
-    end)
 
     local WalkOnWater = Tabs.Player:AddToggle("WalkOnWater", {Title = "Walk On Water", Default = false })
     WalkOnWater:OnChanged(function()
